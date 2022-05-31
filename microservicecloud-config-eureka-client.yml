@@ -15,9 +15,9 @@ eureka:
     instance:
        hostname: eureka7001.com 
     client:
-       register-with-eureka: false
-       fetch-registry: false
-       service-url:
+       registerWithEureka: false
+       fetchRegistry: false
+       serviceUrl:
           defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server:
@@ -32,7 +32,7 @@ eureka:
     instance:
        hostname: eureka7001.com 
     client:
-       register-with-eureka: false
-       fetch-registry: false
-       service-url:
+       registerWithEureka: false
+       fetchRegistry: false
+       serviceUrl:
           defaultZone: http://eureka7001.com:7001/eureka/
